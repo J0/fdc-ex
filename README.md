@@ -1,7 +1,6 @@
 # FdcEx
 
-**TODO: Add description**
-
+This is the client library for the [Food Data Central API](https://fdc.nal.usda.gov/api-spec/fdc_api.html#/FDC/getFoods) which is part of the [Open Gov Data](data.gov) platform.
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
