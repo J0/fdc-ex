@@ -14,6 +14,28 @@ def deps do
 end
 ```
 
+## Example Usage
+
+### Fetch One
+
+```
+FdcEx.fetch_one(1104067)
+```
+### Fetch Many
+
+```
+FdcEx.fetch_many([1104067,1104086,1104087])
+```
+
+### Search for item by name
+```
+FdcEx.search("Cheddar Cheese")
+```
+
+### Get API Spec
+```
+FdcEx.get_spec(:json)
+```
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/fdc_ex](https://hexdocs.pm/fdc_ex).
