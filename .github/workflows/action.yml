@@ -1,0 +1,9 @@
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: mix deps.get
+      - run: mix test
