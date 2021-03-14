@@ -3,6 +3,7 @@ defmodule FdcExTest do
   doctest FdcEx
 
   test "greets the world" do
-    assert FdcEx.hello() == :world
+    {status, _} = FdcEx.get_spec()
+    assert status == :ok
   end
 end
